@@ -1,2 +1,2 @@
 # Webtest1
-practis
+practice
