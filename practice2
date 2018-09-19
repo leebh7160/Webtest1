@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  
+  <style>
+  .row{
+  background-color:yellow;
+  border : 3px solid;
+  pedding:10px;
+  margin : 10px;
+  }
+  
+  .test
+  {
+  background-color:lavender;
+  margin : 20px;
+  padding : 3px 20px 3px 10px;
+  border:3px solid;
+  }
+  
+  .col-sm-4{
+  background-color:lavender;
+  padding : 10px;
+  margin : 20px;
+  border:3px solid;
+  }
+  </style>
+  
+</head>
+<body>
+  
+<div class="container">
+
+  <h1>My First Bootstrap Page</h1>
+  <p>This part is inside a .container class.</p> 
+  <p>The .container class provides a responsive area in your website.</p>  
+
+<div class = "row">
+<h1>Title</h1>
+</div>
+
+<div class = "row">
+ <div class = "col-2"></div>
+ <div class = "col-8 test"></div>
+ 	<div class = "row test">
+    	<div class = "col-5 test"><img src = "http://www.christianreview.com.au/imgdata/christianreview_com_au/201803/2018032828285902.jpg" width = 200px height= 330px></div>
+        <div class = "col-5 test"><img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Tokyo_Sky_Tree_2012.JPG/220px-Tokyo_Sky_Tree_2012.JPG"></div>
+    </div>
+    
+    <div class = "row test">
+ 		<div class = "col-5 test"><img src = "https://file.namu.moe/file/8bc9e381797334eb33da66e3ba501be12d25f0934e25e09925fc6bcc6b983411e01683b43048c50b6fad0a17222e684ac75ec5b871115661e4e49fb4cda1b7e39be08cb9aeb93d68a9bde8eb9317618e" width=200px height= 330px></div>
+    	<div class = "col-5 test"><img src = "https://images.unsplash.com/photo-1439393161192-32360eb753f1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=50553a3130f0e292d59672793d44073f&auto=format&fit=crop&w=500&q=60" width=200px height = 330px></div>
+    </div>
+    </div>
+    </div>
+
+</body>
+</html>
