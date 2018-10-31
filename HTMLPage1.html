@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title> page title</title>
+</head>
+
+<body>
+    <h1 id="title"> this is a heading</h1>
+    <p id="info">this is a paragraph</p>
+
+    <button type="button" onclick="ChangeColor('blue')">change color</button>
+
+    <button type="button" onclick="ChangeColor('green')">change color 2</button>
+
+    
+    <script>
+        var title = document.getElementById("title");
+        var paragraph = document.getElementById("info");
+
+        function ChangeColor(myColor)
+        {
+            title.innerHTML = "Colors name" + myColor;
+            title.style.backgroundColor = myColor;
+        }
+
+        title.innerHTML = "<u>I change the title </u>";
+        title.style.backgroundColor = "red";
+
+        alert("the title object has is : "+title.id);
+        alert("thie title object has a tag : "+title.tagName);
+        alert("the title object has content : "+title.innerHTML);
+    </script>
+</body>
+</html>
